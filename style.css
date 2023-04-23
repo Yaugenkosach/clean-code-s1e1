@@ -6,7 +6,7 @@
     font-family: Lato, sans-serif;
 }
 
-.eisenhower-matrix-container {
+.info-section {
     width: 500px;
     margin: 0 auto;
     display: block;
@@ -23,13 +23,13 @@
 
 @media (max-width:768px) {
 
-  .eisenhower-matrix-container {
+  .info-section {
     text-align: center;
   }
 
 }
 
-.todo-container {
+.todo-section {
     display: block;
     width: 500px;
     margin: 0 auto 0;
