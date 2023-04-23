@@ -88,7 +88,7 @@ h3,
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.text-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -101,7 +101,7 @@ input[type="text"] {
     color: #888;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
     color: #333;
 }
 
@@ -146,13 +146,13 @@ li > input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+.delete-btn-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete-btn-img:hover {
     transform: rotateZ(0);
 }
 
